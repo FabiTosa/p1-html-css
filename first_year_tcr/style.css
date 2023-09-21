@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Goldman", cursive;
 }
@@ -21,19 +23,44 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
+}
+
+.eerstegang {
+  background-image: url("./img/background.jpeg");
+
+  background-size: 1700px;
+  background-repeat: no-repeat;
+}
+
+.hogetext {
+  color: aliceblue;
+}
+
+footer {
+  background-color: #00A8C7;
+  color: aliceblue;
+
+}
+.pluh{
+  background-color: black;
+  color: aliceblue;
 }
