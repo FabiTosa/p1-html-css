@@ -5,22 +5,11 @@ h1 {
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
 h2 {
     font-size: 16px;
     color: #0000ff;
     font-weight: bold;
 }
-
-
-
-
 
 h3 {
     font-size: 16px;
@@ -28,13 +17,43 @@ h3 {
     font-weight: bold;
 }
 
-
 p {
     color: #4D4D4D;
+}
+
+.first_p {
+    font-weight: bold;
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 33vh;
+    background-image: url("./HOLYMOLY.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
-.first_p {font-weight: bold;}
 
-a {color: #8A2BE2;
-text-decoration: none;
+.ganggang {
+    color: #d10000;
+}
+
+.first_p {
+    color: azure;
+}
+
+.size-image {
+    width: 50vw;
+}
+
+article {
+    border-style: inset;
+    border-radius: 30px;
+    border-color: black;
 }
