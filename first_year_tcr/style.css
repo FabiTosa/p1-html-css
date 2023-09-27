@@ -10,6 +10,9 @@ html {
 
 body {
   font-family: "Goldman", cursive;
+  min-height: 200vh;
+  position: relative;
+  position: 0px;
 }
 
 nav {
@@ -22,6 +25,13 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  position: sticky;
+  top: 0px;
+
+
+
+
 }
 
 nav ul {
@@ -56,11 +66,64 @@ nav img {
 }
 
 footer {
-  background-color: #00A8C7;
-  color: aliceblue;
-
+  background-color: #25b7d0;
+  color: rgb(242, 242, 242);
+  position: absolute;
+  bottom: 0;
+  max-height: 10px;
+  text-align: center;
+  width: 220vh;
 }
-.pluh{
+
+.pluh {
   background-color: black;
   color: aliceblue;
+}
+
+img {
+  float: right;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.links {
+  float: left;
+  width: 600px;
+  padding-top: 100px;
+}
+
+img {
+  width: 1000px;
+}
+
+.rightsec {
+  left: 1000px;
+  display: block;
+  width: 300px;
+  float: right;
+  down: 100px;
+  font-size: medium;
+  padding-top: 150px;
+}
+
+.leftsec {
+  right: 1000px;
+  display: block;
+  width: 300px;
+  float: left;
+  down: 100px;
+  font-size: medium;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+.rechts {
+  width: 400px;
+  float: right;
+  padding-top: 200px;
+  padding-right: 100px;
 }
