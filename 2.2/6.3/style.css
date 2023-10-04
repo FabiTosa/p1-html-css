@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+background-color: blueviolet;
+height: 10vh;
+justify-content: space-around;
+align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+nav a{
+    text-decoration: none;
+}
