@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: aqua;
+    height: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+    section{
+        background-color: brown;
+        font-size: 20px;
+    }
+}
+
+/* telefoon */
+@media screen and(max-width: 576px) {
+    section {
+        font-size: 30px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: red;
+    height: 10vh;
+}
+
+.top {
+    background-color: yellow;
+}
+
+.mid {
+    background-color: orange;
+}
+
+.bottom {
+    background-color: rgb(73, 222, 73);
+    flex-wrap: nowrap;
+
+}
+
+section {
+    height: 30vh;
+}
+
+/* telefoon */
+@media screen and (max-width: 768px) {
+    .top {
+        background-color: rgb(250, 81, 168);
+color: aliceblue;
+    }
+
+    .mid {
+        background-color: rgb(103, 77, 218);
+        color: aliceblue;
+
+    }
+
+    .bottom {
+       background-color: rgb(12, 12, 170);
+       color: aliceblue;
+
+    }
+
+    section {
+        font-size: 20px;
+      
+    }
+    nav{
+        background-color: rgb(252, 129, 213);
+    }
+    nav{
+        font-size: 50px;
+        color: aliceblue;
+    }
+}
+
+/* telefoon */
+@media screen and (max-width: 590px) {
+    .top {
+        background-color: aqua;
+color: aliceblue;
+    }
+
+    .mid {
+        background-color: blueviolet;
+        color: aliceblue;
+
+    }
+
+    .bottom {
+       background-color: rgb(51, 51, 142);
+       color: aliceblue;
+
+    }
+
+    section {
+        font-size: 30px;
+        text-align: center;
+    }
+    nav{
+        background-color: rgb(78, 116, 220);
+    }
+    nav{
+        font-size: 50px;
+        color: aliceblue;
+    }
+}
