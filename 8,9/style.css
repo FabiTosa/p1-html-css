@@ -61,7 +61,7 @@ h2 {
 }
 
 body {
-    height: 4000px;
+    height: 3200px;
 }
 
 .hoofdmid {
@@ -175,7 +175,7 @@ button {
 }
 
 
-img {
+section img {
     height: 15vh;
     width: 100%;
 }
@@ -197,12 +197,59 @@ flex-direction: column;
     margin-top: 20vh;
     color: #ffffff;
 font-size: xx-large;
-background-color: #131c27;
+background: rgba(19, 28, 39, 0.8);
 height: 50vh;
 width: 50%;
-display: flex;
+display: flexbox;
 align-items: center;
 align-content: center;
 border-radius: 25px;
 text-align: center;
+justify-content: center;
+background-repeat: no-repeat;
+
+}
+.contactcard button{
+width: 100%;
+display: flexbox;
+align-items: center;
+align-content: center;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+text-align: center;
+justify-content: center;
+background-repeat: no-repeat;
+margin-top: 8vh;
+font-size: large;
+}
+footer {
+    position: absolute;
+    
+    background-color: #131c27;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    color: rgb(255, 255, 255);
+ 
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ 
+footer h2 {
+    margin-left: 30px;
+}
+ 
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    margin-right: 30px;
+    font-size: 20px;
+    width: 40%;
+}
+ 
+footer img{
+    width: 30%;
 }
